@@ -1,0 +1,56 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#search {
+    display: flex;
+}
+
+#error {
+    color: red;
+    margin-bottom: 20px;
+}
+
+#units {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#card {
+    display: none;
+    height: 25vh;
+    width: 20vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(220, 246, 255);
+    border-radius: 15px;
+}
+
+#name {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#temp {
+    font-size: 2rem;
+}
+
+#tempc {
+    display: none;
+}
